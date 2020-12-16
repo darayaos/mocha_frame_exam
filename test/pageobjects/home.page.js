@@ -7,7 +7,7 @@ class HomePage extends Page {
     get placeholderText () { return $('input[placeholder="¿Buscas a alguien o algo en específico?"]') }
 
     open () {
-        return super.open('/');
+        return super.open('/'); 
     }
 
     search () {
